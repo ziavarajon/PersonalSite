@@ -8539,7 +8539,8 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .gallery article .image {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: rgba(255, 255, 255, 0);
+				
 			}
 
 			#wrapper > .invert .items.style1 > * {
