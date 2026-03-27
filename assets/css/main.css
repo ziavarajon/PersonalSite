@@ -4890,6 +4890,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 35%;
 			min-width: 25rem;
+			min-height: 38rem;
 			border-radius: 0;
 		}
 
