@@ -2626,7 +2626,10 @@ input, select, textarea {
 	}
 
 /* Image */
+	.bookimg{
+		min-height: 37rem;
 
+	}
 	.image {
 		border: 0;
 		border-radius: 4px;
@@ -2638,7 +2641,7 @@ input, select, textarea {
 			display: block;
 			border-radius: 4px;
 		}
-
+		
 		.image.left, .image.right {
 			width: 40%;
 			max-width: 10rem;
@@ -3573,6 +3576,7 @@ input, select, textarea {
 					height: 45vh;
 					
 				}
+				
 
 		}
 
@@ -4859,6 +4863,7 @@ input, select, textarea {
 		position: relative;
 		overflow-x: hidden;
 		text-align: left;
+		min-height: 37rem;
 	}
 
 		.spotlight.style1 .content {
@@ -4891,9 +4896,9 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 35%;
 			min-width: 25rem;
-			min-height: 37rem;
 			border-radius: 0;
 		}
+		
 
 			.spotlight.style1 .image img {
 				-moz-object-fit: cover;
@@ -4912,6 +4917,7 @@ input, select, textarea {
 				height: 100%;
 				border-radius: 0;
 			}
+		
 
 		@media screen and (max-width: 1680px) {
 
